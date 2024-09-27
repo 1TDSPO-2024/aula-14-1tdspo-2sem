@@ -92,7 +92,7 @@ export default function Produtos() {
                     <td>{produto.quantidade}</td>
                     <td>{produto.categoria}</td>
                     <td><img src={produto.imagem} alt="Imagem do produto" width="100" height="100" /></td>
-                    <td><Link href={`/produto/${produto.id}`}>Editar</Link></td>
+                    <td><Link href={`/produtos/produto/${produto.id}`}>Editar</Link></td>
                 </tr>
                 ))}
         </tbody>
